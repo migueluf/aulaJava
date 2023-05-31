@@ -9,6 +9,7 @@ public class CadConta {
     private int agencia;
     private int conta;
     private int idade;
+    private int saldo;
     
     public CadConta(){
         
@@ -44,6 +45,14 @@ public class CadConta {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    public int getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(int saldo) {
+        this.saldo = saldo;
     }
     
     
